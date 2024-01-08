@@ -13,9 +13,9 @@ router.post('/adminapi/user/add', upload.single('file'), UserHandler.add)
 //获取用户列表
 router.get('/adminapi/user/list', UserHandler.getuserlist)
 //删除用户
-router.post('/adminapi/user/remove',UserHandler.remove)
+router.post('/adminapi/user/remove', UserHandler.remove)
 //获取单个用户列表
 router.get('/adminapi/user/list/:id', UserHandler.getoneuserlist)
 //更新某一个id的用户
-router.post('/adminapi/user/updateUserlist/:id',UserHandler.update)
+router.post('/adminapi/user/updateUserlist', UserHandler.update)
 module.exports = router;

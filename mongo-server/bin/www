@@ -7,6 +7,9 @@
 var app = require('../app');
 var debug = require('debug')('mongo-server:mongo-server');
 var http = require('http');
+require('../config/db.config')
+
+
 
 /**
  * Get port from environment and store in Express.

@@ -1,0 +1,13 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    overflow-x: hidden;
+}
+.text1_eliplis{
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
